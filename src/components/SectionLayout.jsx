@@ -1,0 +1,23 @@
+import Title from "../components/Title";
+
+
+export default function SectionLayout(props) {
+    const {text, id, bg, description} = props;
+
+    return (
+<section id={id} className="relative min-h-screen flex items-center justify-center bg-gradient-to-r from-black to-white-600 text-black px-4 sm:px-6">
+      <div className="max-w-7xl mx-auto">
+        <div className="text-center mb-16">
+            <Title text={props.title}/>
+          <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto"></div>
+        </div>
+        
+         
+    {props.children}
+   </div>
+    </section>
+
+
+    )
+
+}
