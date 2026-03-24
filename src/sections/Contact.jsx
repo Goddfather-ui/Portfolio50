@@ -2,8 +2,8 @@
 
 export default function Contact() {
   return (
-    <section id="contact" className="bg-gradient-to-r from-black to-white-600 text-black pb-20">
-      <div className="container mx-auto px-4">
+    <section id="contact" className="bg-white-500 text-black pb-20 w-full">
+      <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-bold text-center mb-8">Contact Me</h2>
         <div className="max-w-lg mx-auto bg-white p-6 sm:p-8 rounded-lg shadow-md">
           <form className="space-y-6">

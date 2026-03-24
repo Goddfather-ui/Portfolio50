@@ -44,35 +44,35 @@ const skills = [
           </div>
           <div className="md:w-2/3 md:pl-12">
           <Title text="Who I Am" tagName="h3"/>
-            <p className="text-white-600 mb-6">
-              I'm a passionate full-stack developer and designer with over 5
+            <p className="text-black-200 mb-6">
+              I'm a passionate full-stack developer and designer with over 2
               years of experience creating digital experiences that matter. My
-              journey in tech started when I was just 15 years old, and I've
+              journey in tech started when I was just 16 years old, and I've
               been in love with coding ever since.
             </p>
-            <p className="text-white-600 mb-8">
+            <p className="text-black-600 mb-8">
               I specialize in modern web technologies like React, Node.js, and
               TailwindCSS, but I'm always learning and expanding my skill set.
-              When I'm not coding, you can find me hiking, reading sci-fi
+              When I'm not coding, you can find me hooping, reading sci-fi
               novels, or experimenting with new design tools.
             </p>
 
             <div className="grid grid-cols-2 gap-6 mb-8">
               <div>
-                <h4 className="font-semibold mb-2">Name:</h4>
-                <p className="text-white-600">Balogun Korede</p>
+                <h4 className="font-semibold mb-2 text-black-600">Name:</h4>
+                <p className="text black-600">Balogun Korede</p>
               </div>
               <div>
-                <h4 className="font-semibold mb-2">Email:</h4>
-                <p className="text-white-600">balogunkaybal04@gmail.com</p>
+                <h4 className="font-semibold mb-2 text-white">Email:</h4>
+                <p className="text-black-200">balogunkaybal04@gmail.com</p>
               </div>
               <div>
-                <h4 className="font-semibold mb-2">From:</h4>
-                <p className="text-white-600">Lagos, Nigeria</p>
+                <h4 className="font-semibold mb-2 text-white">From:</h4>
+                <p className="text-black-200">Lagos, Nigeria</p>
               </div>
               <div>
-                <h4 className="font-semibold mb-2">Experience:</h4>
-                <p className="text-white-600">2+ Years</p>
+                <h4 className="font-semibold mb-2 text-white">Experience:</h4>
+                <p className="text-black-200">2+ Years</p>
               </div>
             </div>
 
